@@ -644,6 +644,10 @@ video {
   margin-top: 1.5rem;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
 .block {
   display: block;
 }
@@ -668,8 +672,20 @@ video {
   height: 100%;
 }
 
+.h-\[84px\] {
+  height: 84px;
+}
+
 .w-full {
   width: 100%;
+}
+
+.w-\[704px\] {
+  width: 704px;
+}
+
+.w-\[\] {
+  width: ;
 }
 
 .max-w-\[1000px\] {
@@ -682,6 +698,10 @@ video {
 
 .max-w-0 {
   max-width: 0px;
+}
+
+.flex-shrink-0 {
+  flex-shrink: 0;
 }
 
 .border-collapse {
@@ -706,6 +726,10 @@ video {
 
 .gap-\[36px\] {
   gap: 36px;
+}
+
+.gap-9 {
+  gap: 2.25rem;
 }
 
 .gap-x-0 {
@@ -889,6 +913,14 @@ video {
   font-size: 28px;
 }
 
+.text-\[18px\] {
+  font-size: 18px;
+}
+
+.text-\[21\.6px\] {
+  font-size: 21.6px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -935,6 +967,10 @@ video {
 
 .leading-\[29\.9px\] {
   line-height: 29.9px;
+}
+
+.leading-\[21\.6px\] {
+  line-height: 21.6px;
 }
 
 .text-black {
@@ -1056,6 +1092,14 @@ body {
     font-size: 36px;
   }
 
+  .sm\:text-\[18px\] {
+    font-size: 18px;
+  }
+
+  .sm\:text-\[23\.4px\] {
+    font-size: 23.4px;
+  }
+
   .sm\:leading-\[21px\] {
     line-height: 21px;
   }
@@ -1067,6 +1111,10 @@ body {
   .sm\:leading-\[37px\] {
     line-height: 37px;
   }
+
+  .sm\:leading-\[23\.4px\] {
+    line-height: 23.4px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1076,6 +1124,14 @@ body {
 
   .md\:w-auto {
     width: auto;
+  }
+
+  .md\:text-\[20px\] {
+    font-size: 20px;
+  }
+
+  .md\:leading-\[27px\] {
+    line-height: 27px;
   }
 }
 
@@ -1115,6 +1171,14 @@ body {
 }
 
 @media (min-width: 1280px) {
+  .xl\:w-\[522px\] {
+    width: 522px;
+  }
+
+  .xl\:w-auto {
+    width: auto;
+  }
+
   .xl\:flex-row {
     flex-direction: row;
   }
@@ -1142,9 +1206,25 @@ body {
   .xl\:leading-\[58px\] {
     line-height: 58px;
   }
+
+  .xl\:leading-\[\] {
+    line-height: ;
+  }
+
+  .xl\:leading-\[27px\] {
+    line-height: 27px;
+  }
 }
 
 @media (min-width: 1536px) {
+  .\32xl\:w-\[704px\] {
+    width: 704px;
+  }
+
+  .\32xl\:max-w-\[1000px\] {
+    max-width: 1000px;
+  }
+
   .\32xl\:px-5 {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
@@ -1168,6 +1248,10 @@ body {
     font-size: 64px;
   }
 
+  .\32xl\:text-\[63px\] {
+    font-size: 63px;
+  }
+
   .\32xl\:leading-\[100px\] {
     line-height: 100px;
   }
@@ -1178,6 +1262,18 @@ body {
 
   .\32xl\:leading-\[67\.2px\] {
     line-height: 67.2px;
+  }
+
+  .\32xl\:leading-\[20pxpx\] {
+    line-height: 20pxpx;
+  }
+
+  .\32xl\:leading-\[20px\] {
+    line-height: 20px;
+  }
+
+  .\32xl\:leading-\[32\.4px\] {
+    line-height: 32.4px;
   }
 }
 
