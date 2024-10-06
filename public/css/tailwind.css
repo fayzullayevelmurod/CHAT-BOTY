@@ -1002,6 +1002,18 @@ video {
   line-height: 37.8px;
 }
 
+.leading-\[29\] {
+  line-height: 29;
+}
+
+.leading-\[29\.4px\] {
+  line-height: 29.4px;
+}
+
+.leading-\[\] {
+  line-height: ;
+}
+
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -1015,6 +1027,11 @@ video {
 .text-accent {
   --tw-text-opacity: 1;
   color: rgb(255 204 0 / var(--tw-text-opacity));
+}
+
+.text-secondary {
+  --tw-text-opacity: 1;
+  color: rgb(82 80 80 / var(--tw-text-opacity));
 }
 
 .shadow {

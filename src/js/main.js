@@ -37,7 +37,7 @@ let swiper2 = new Swiper(".commenttwoSwiper", {
       slidesPerView: 3,
       spaceBetween: 20,
     },
-    1350: {
+    1450: {
       spaceBetween: 35,
       slidesPerView: 4,
     },
