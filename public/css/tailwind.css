@@ -664,6 +664,54 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mt-9 {
+  margin-top: 2.25rem;
+}
+
+.mb-48 {
+  margin-bottom: 12rem;
+}
+
+.mb-32 {
+  margin-bottom: 8rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
+.mb-\[70px\] {
+  margin-bottom: 70px;
+}
+
+.mb-\[\] {
+  margin-bottom: ;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
+.mt-\[20px\] {
+  margin-top: 20px;
+}
+
 .block {
   display: block;
 }
@@ -764,6 +812,34 @@ video {
   max-width: 100%;
 }
 
+.max-w-\[153px\] {
+  max-width: 153px;
+}
+
+.max-w-\[px\] {
+  max-width: px;
+}
+
+.max-w-\[82px\] {
+  max-width: 82px;
+}
+
+.max-w-\[202px\] {
+  max-width: 202px;
+}
+
+.max-w-\[124px\] {
+  max-width: 124px;
+}
+
+.max-w-\[210px\] {
+  max-width: 210px;
+}
+
+.max-w-\[170px\] {
+  max-width: 170px;
+}
+
 .flex-shrink-0 {
   flex-shrink: 0;
 }
@@ -792,6 +868,10 @@ video {
   align-items: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .gap-9 {
   gap: 2.25rem;
 }
@@ -807,6 +887,37 @@ video {
 
 .gap-y-9 {
   row-gap: 2.25rem;
+}
+
+.gap-x-\[64px\] {
+  -moz-column-gap: 64px;
+       column-gap: 64px;
+}
+
+.gap-y-\[44px\] {
+  row-gap: 44px;
+}
+
+.gap-y-\[32px\] {
+  row-gap: 32px;
+}
+
+.gap-x-\[32px\] {
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+}
+
+.gap-x-\[\] {
+  -moz-column-gap: ;
+       column-gap: ;
+}
+
+.gap-y-\[\] {
+  row-gap: ;
+}
+
+.gap-y-\[20px\] {
+  row-gap: 20px;
 }
 
 .overflow-hidden {
@@ -910,6 +1021,10 @@ video {
   line-height: 2.5rem;
 }
 
+.text-\[20px\] {
+  font-size: 20px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -968,6 +1083,18 @@ video {
 
 .leading-\[42\.95px\] {
   line-height: 42.95px;
+}
+
+.leading-\[px\] {
+  line-height: px;
+}
+
+.leading-\[23px\] {
+  line-height: 23px;
+}
+
+.leading-\[23\.86px\] {
+  line-height: 23.86px;
 }
 
 .text-black {
@@ -1038,8 +1165,48 @@ body {
     margin-bottom: 2.25rem;
   }
 
+  .sm\:mt-9 {
+    margin-top: 2.25rem;
+  }
+
+  .sm\:mb-\[70px\] {
+    margin-bottom: 70px;
+  }
+
+  .sm\:mt-\[70px\] {
+    margin-top: 70px;
+  }
+
   .sm\:hidden {
     display: none;
+  }
+
+  .sm\:w-auto {
+    width: auto;
+  }
+
+  .sm\:w-max {
+    width: -moz-max-content;
+    width: max-content;
+  }
+
+  .sm\:w-screen {
+    width: 100vw;
+  }
+
+  .sm\:w-min {
+    width: -moz-min-content;
+    width: min-content;
+  }
+
+  .sm\:w-fit {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+
+  .sm\:max-w-max {
+    max-width: -moz-max-content;
+    max-width: max-content;
   }
 
   .sm\:flex-col-reverse {
@@ -1048,6 +1215,15 @@ body {
 
   .sm\:gap-y-12 {
     row-gap: 3rem;
+  }
+
+  .sm\:gap-x-\[64px\] {
+    -moz-column-gap: 64px;
+         column-gap: 64px;
+  }
+
+  .sm\:gap-y-\[32px\] {
+    row-gap: 32px;
   }
 
   .sm\:py-\[34px\] {
@@ -1088,6 +1264,10 @@ body {
     line-height: 1.75rem;
   }
 
+  .sm\:text-\[24px\] {
+    font-size: 24px;
+  }
+
   .sm\:leading-\[21px\] {
     line-height: 21px;
   }
@@ -1102,6 +1282,10 @@ body {
 
   .sm\:leading-\[50\.4px\] {
     line-height: 50.4px;
+  }
+
+  .sm\:leading-\[28px\] {
+    line-height: 28px;
   }
 }
 
@@ -1122,12 +1306,20 @@ body {
     font-size: 24px;
   }
 
+  .md\:text-\[28px\] {
+    font-size: 28px;
+  }
+
   .md\:leading-\[25px\] {
     line-height: 25px;
   }
 
   .md\:leading-\[27px\] {
     line-height: 27px;
+  }
+
+  .md\:leading-\[33px\] {
+    line-height: 33px;
   }
 }
 
@@ -1167,6 +1359,14 @@ body {
 }
 
 @media (min-width: 1280px) {
+  .xl\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .xl\:flex {
+    display: flex;
+  }
+
   .xl\:w-\[522px\] {
     width: 522px;
   }
@@ -1191,6 +1391,10 @@ body {
     font-size: 88px;
   }
 
+  .xl\:text-\[30px\] {
+    font-size: 30px;
+  }
+
   .xl\:leading-\[27px\] {
     line-height: 27px;
   }
@@ -1209,6 +1413,10 @@ body {
 
   .xl\:leading-\[92px\] {
     line-height: 92px;
+  }
+
+  .xl\:leading-\[38px\] {
+    line-height: 38px;
   }
 }
 
@@ -1244,6 +1452,10 @@ body {
     font-size: 63px;
   }
 
+  .\32xl\:text-\[36px\] {
+    font-size: 36px;
+  }
+
   .\32xl\:leading-\[100px\] {
     line-height: 100px;
   }
@@ -1258,6 +1470,14 @@ body {
 
   .\32xl\:leading-\[67\.2px\] {
     line-height: 67.2px;
+  }
+
+  .\32xl\:leading-\[42px\] {
+    line-height: 42px;
+  }
+
+  .\32xl\:leading-\[42\.95px\] {
+    line-height: 42.95px;
   }
 }
 
