@@ -640,6 +640,10 @@ video {
   margin-top: 24px;
 }
 
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
 .block {
   display: block;
 }
@@ -676,6 +680,10 @@ video {
   max-width: 704px;
 }
 
+.max-w-0 {
+  max-width: 0px;
+}
+
 .border-collapse {
   border-collapse: collapse;
 }
@@ -696,6 +704,10 @@ video {
   align-items: center;
 }
 
+.gap-\[36px\] {
+  gap: 36px;
+}
+
 .gap-x-0 {
   -moz-column-gap: 0px;
        column-gap: 0px;
@@ -711,6 +723,10 @@ video {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.whitespace-nowrap {
+  white-space: nowrap;
 }
 
 .rounded-\[999px\] {
@@ -729,6 +745,10 @@ video {
 .bg-accent {
   --tw-bg-opacity: 1;
   background-color: rgb(255 204 0 / var(--tw-bg-opacity));
+}
+
+.p-\[30px\] {
+  padding: 30px;
 }
 
 .px-0 {
@@ -794,12 +814,24 @@ video {
   padding-right: 124px;
 }
 
+.pl-\[30px\] {
+  padding-left: 30px;
+}
+
 .text-center {
   text-align: center;
 }
 
+.text-start {
+  text-align: start;
+}
+
 .font-Onest {
   font-family: "Onest";
+}
+
+.font-Gilroy {
+  font-family: "Gilroy";
 }
 
 .text-\[16px\] {
@@ -830,6 +862,33 @@ video {
   line-height: 2rem;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.text-\[64px\] {
+  font-size: 64px;
+}
+
+.text-\[2px\] {
+  font-size: 2px;
+}
+
+.text-\[28px\] {
+  font-size: 28px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -840,6 +899,10 @@ video {
 
 .font-normal {
   font-weight: 400;
+}
+
+.font-semibold {
+  font-weight: 600;
 }
 
 .uppercase {
@@ -856,6 +919,22 @@ video {
 
 .leading-\[37\.8px\] {
   line-height: 37.8px;
+}
+
+.leading-\[\] {
+  line-height: ;
+}
+
+.leading-\[67\.2px\] {
+  line-height: 67.2px;
+}
+
+.leading-\[29\.8px\] {
+  line-height: 29.8px;
+}
+
+.leading-\[29\.9px\] {
+  line-height: 29.9px;
 }
 
 .text-black {
@@ -922,12 +1001,38 @@ body {
 }
 
 @media (min-width: 640px) {
+  .sm\:block {
+    display: block;
+  }
+
+  .sm\:hidden {
+    display: none;
+  }
+
+  .sm\:max-w-max {
+    max-width: -moz-max-content;
+    max-width: max-content;
+  }
+
   .sm\:flex-col-reverse {
     flex-direction: column-reverse;
   }
 
   .sm\:gap-y-12 {
     row-gap: 3rem;
+  }
+
+  .sm\:py-\[34px\] {
+    padding-top: 34px;
+    padding-bottom: 34px;
+  }
+
+  .sm\:pr-\[124px\] {
+    padding-right: 124px;
+  }
+
+  .sm\:pl-\[48px\] {
+    padding-left: 48px;
   }
 
   .sm\:text-start {
@@ -942,6 +1047,15 @@ body {
     font-size: 48px;
   }
 
+  .sm\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .sm\:text-\[36px\] {
+    font-size: 36px;
+  }
+
   .sm\:leading-\[21px\] {
     line-height: 21px;
   }
@@ -949,11 +1063,19 @@ body {
   .sm\:leading-\[50\.4px\] {
     line-height: 50.4px;
   }
+
+  .sm\:leading-\[37px\] {
+    line-height: 37px;
+  }
 }
 
 @media (min-width: 768px) {
   .md\:mb-\[48px\] {
     margin-bottom: 48px;
+  }
+
+  .md\:w-auto {
+    width: auto;
   }
 }
 
@@ -975,6 +1097,10 @@ body {
     font-size: 72px;
   }
 
+  .lg\:text-\[48px\] {
+    font-size: 48px;
+  }
+
   .lg\:leading-\[25\.2px\] {
     line-height: 25.2px;
   }
@@ -982,9 +1108,17 @@ body {
   .lg\:leading-\[75px\] {
     line-height: 75px;
   }
+
+  .lg\:leading-\[50px\] {
+    line-height: 50px;
+  }
 }
 
 @media (min-width: 1280px) {
+  .xl\:flex-row {
+    flex-direction: row;
+  }
+
   .xl\:text-\[28px\] {
     font-size: 28px;
   }
@@ -993,12 +1127,20 @@ body {
     font-size: 88px;
   }
 
+  .xl\:text-\[56px\] {
+    font-size: 56px;
+  }
+
   .xl\:leading-\[29\.4px\] {
     line-height: 29.4px;
   }
 
   .xl\:leading-\[92px\] {
     line-height: 92px;
+  }
+
+  .xl\:leading-\[58px\] {
+    line-height: 58px;
   }
 }
 
@@ -1017,12 +1159,25 @@ body {
     font-size: 32px;
   }
 
+  .\32xl\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .\32xl\:text-\[64px\] {
+    font-size: 64px;
+  }
+
   .\32xl\:leading-\[100px\] {
     line-height: 100px;
   }
 
   .\32xl\:leading-\[38px\] {
     line-height: 38px;
+  }
+
+  .\32xl\:leading-\[67\.2px\] {
+    line-height: 67.2px;
   }
 }
 
