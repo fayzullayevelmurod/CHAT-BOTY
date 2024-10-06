@@ -16,7 +16,13 @@ body {
 
 @media (max-width: 1500px) {
   .container {
-    @apply max-w-[1880px] p-12;
+    @apply p-12;
+  }
+}
+
+@media (max-width: 991px) {
+  .container {
+    @apply p-5;
   }
 }
 
