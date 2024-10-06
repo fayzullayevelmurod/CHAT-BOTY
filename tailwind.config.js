@@ -14,6 +14,7 @@ module.exports = {
         "accent": "#FFCC00",
         "secondary": "#525050",
         "bg-color": "#F2F2F2",
+        "card-bg": "#F3F3F380",
       },
       padding: {
         '17': '4.375rem',
