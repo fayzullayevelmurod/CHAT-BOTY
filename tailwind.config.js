@@ -11,6 +11,7 @@ module.exports = {
       },
       colors: {
         "black": "#000000",
+        "grey-dark": "#2F2E32",
         "accent": "#FFCC00",
         "secondary": "#525050",
         "bg-color": "#F2F2F2",
