@@ -850,6 +850,18 @@ video {
   gap: 24px;
 }
 
+.gap-7 {
+  gap: 1.75rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
 .gap-x-0 {
   -moz-column-gap: 0px;
        column-gap: 0px;
@@ -930,6 +942,10 @@ video {
 
 .bg-secondary-50 {
   background-color: #F3F3F380;
+}
+
+.bg-transparent {
+  background-color: transparent;
 }
 
 .p-12 {
@@ -1245,6 +1261,18 @@ body {
     border-radius: 35px;
   }
 
+  .sm\:bg-secondary-50 {
+    background-color: #F3F3F380;
+  }
+
+  .sm\:p-5 {
+    padding: 1.25rem;
+  }
+
+  .sm\:p-6 {
+    padding: 1.5rem;
+  }
+
   .sm\:py-\[34px\] {
     padding-top: 34px;
     padding-bottom: 34px;
@@ -1256,6 +1284,10 @@ body {
 
   .sm\:pr-\[124px\] {
     padding-right: 124px;
+  }
+
+  .sm\:text-left {
+    text-align: left;
   }
 
   .sm\:text-start {
@@ -1331,6 +1363,10 @@ body {
 
   .md\:w-auto {
     width: auto;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
   }
 
   .md\:p-12 {
@@ -1442,6 +1478,10 @@ body {
     max-width: calc(100% / 3 - 8px);
   }
 
+  .xl\:max-w-\[556px\] {
+    max-width: 556px;
+  }
+
   .xl\:flex-row {
     flex-direction: row;
   }
@@ -1522,6 +1562,14 @@ body {
 
   .\32xl\:max-w-\[1000px\] {
     max-width: 1000px;
+  }
+
+  .\32xl\:gap-9 {
+    gap: 2.25rem;
+  }
+
+  .\32xl\:p-12 {
+    padding: 3rem;
   }
 
   .\32xl\:px-5 {
