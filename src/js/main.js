@@ -33,7 +33,7 @@ let swiper2 = new Swiper(".commenttwoSwiper", {
     type: "fraction",
   },
   breakpoints: {
-    1024: {
+    1200: {
       slidesPerView: 3,
       spaceBetween: 20,
     },

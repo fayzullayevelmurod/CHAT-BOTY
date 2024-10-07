@@ -11,11 +11,13 @@ module.exports = {
       },
       colors: {
         "black": "#000000",
+        "black-dark": "#0B0A0A",
         "grey-dark": "#2F2E32",
         "accent": "#FFCC00",
         "secondary": "#525050",
         "bg-color": "#F2F2F2",
         "card-bg": "#F3F3F380",
+        "comment-bg": "#F3F3F3",
       },
       padding: {
         '17': '4.375rem',
